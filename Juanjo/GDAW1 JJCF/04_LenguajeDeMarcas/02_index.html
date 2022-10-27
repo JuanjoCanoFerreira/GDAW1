@@ -1,0 +1,136 @@
+<Doctype html>
+<html>
+<head>
+	<meta charset="utf-8"	
+	<title></title>
+</head>
+<body>
+
+		<form action= "" method="GET">
+
+				<label for="nombre" name="nombre_id"> Dime tu nombre: </label>
+				<input type= "text" name= "nombre" name="nombre">
+			
+			<br>
+
+				<label for="apellidos id"> Dime tus apellidos: </label>
+				<input type= "text" name= "apellidos" id= "apellidos id">
+			
+			<br>
+
+				<label for= "expediente_id"> Dime tu expediente: </label> 
+				<input type= "number" name= "expediente" id= "expediente_id"
+					min="1000" max="9999"
+
+				>
+			
+			<br>
+
+				<select id="asignaturas_id" name= "asignatura" multiple> 
+					<!-- size="4" -->
+
+					<option value= "SSII"> Sistemas informáticos </option>
+					<option value= "LMS">Lenguaje de Marcas </option>
+					<option value= "PROG"> Programación </option>
+					<option value= "FOL"> FOL </option>
+					<option value= "ED" disabled> Entornos de desarrollo </option>                  
+					option*20
+
+				</select>
+
+				<input type= "submit" name= "enviar" value= "enviar">
+
+
+			<br>
+			<br>
+			<br>
+
+
+
+
+<select id="asignaturas_id" name= "asignatura2" multiple> 
+					<!-- size="4" -->
+
+					<option value= "SSII2"> Sistemas informáticos2 </option>
+					<option value= "LMS2">Lenguaje de Marcas2 </option>
+					<option value= "PROG2"> Programación2 </option>
+					<option value= "FOL2"> FOL2 </option>
+					<option value= "ED2" disabled> Entornos de desarrollo2</option>                  
+					option*20
+
+				</select>
+
+			<br>
+				<label for="areatexto_id"> Comentarios: </label>
+				<textarea id="areatexto_id" name="areatexto" rows="5" cols ="9"
+						style="width: 350px; height: 200px;">
+				</textarea>
+			<br>
+				<input type="checkbox" id="curso1" name="1o">
+				<label for= "curso1" > Estoy cursando 1 de GDAW</label>
+
+			<br> 
+				<input type="checkbox" id="curso2" name="2o">
+				<label for= "curso2" > Estoy cursando 2 de GDAW</label>
+			<br>
+				<p>¿Eres mayor de edad? </p>
+				<input type="radio" id="mayoredad_si" name="mayorEdad"value="si">
+				<label> Si </label>
+			<br>
+				<input type="radio" id="mayoredad_no" name="mayorEdad"value="no">
+				<label for="mayoredad_no">No</label>
+			<br>
+				<input type="radio" id="mayoredad_nsnc" name="mayorEdad" value="nsnc">
+				<label for="mayoredad_no">NS/NC</label>
+			<br>
+			<br>
+			<br>
+
+			<p>¿Cuál es tu sexo?</p>
+				<input type="radio" id="sexoV" name="sexo" value="v">
+				<label for="sexoV">Varón</label>
+
+			<br>
+
+				<input type="radio" id="sexoH" name="sexo" value="h">
+				<label for="sexoH">Hembra</label>
+
+			<br>
+
+				<input type="radio" id="sexque" name="sexo" value="niideadequeeseso">
+				<label for="sexque">Sex...qué?</label>
+			<br> 
+				<input type="radio" id="siporfavor" name="sexo" value="siporfavor">
+				<label for="siporfavor">Si, por favor!</label>
+			<br>
+				<input type="submit" name="enviar" value="Enviar">
+			<br>
+				<button type="button" onclick="alert('Hola majo!!!!')"> Saludame</button>
+			<br>
+
+				<fieldset>
+					<legend>Qué tipo de bebida prefieres</legend>
+					<label for="cafe_id">¿Tomás café?</label>
+					<input type="text" id="cafe_id" name=café>
+			<br>
+					<label for="te_id">¿Tomás té?</label>
+					<input type="text" id="té_id" name="te">
+				</fieldset>
+					<label for="lenguahes">Tu lenguaje de programación favorito: </label>
+				<input list="lenguajes">
+				<datalist id= "lenguajes">
+					<option value="Java">
+					<option value="Python">
+					<option value="JavaScript">
+					<option value="PHP">
+				</datalist>
+
+		</form>
+				<img src="samuel.jpg" height="100px" width="100px">
+
+
+
+
+</body>
+</html>
+

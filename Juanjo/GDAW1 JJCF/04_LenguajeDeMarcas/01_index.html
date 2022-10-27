@@ -1,0 +1,114 @@
+<!DOCTYPE html>		<!-- indicamos que el documento es de tipo HTML -->	
+
+<html lang>		<!-- etiqueta de apertura de documento --->
+
+<head>		<!-- abrimos la cabecera del documento -->
+
+	<meta charset="utf-8">		<!-- metadato. charset es el conjunto de caracteres con el que voy a trabajar en este documento -->
+
+	<title>Mi primera web</title> <!-- título del documento. 
+		Aparece en la barra del título de la ventana o en la pestaña del navegador --> 
+
+</head>
+
+<body>	<!-- cuerpo del documento. "La parte visible" --> 
+
+	<header> 
+		<h1>Hola Mundo!</h1>	<!-- encabezado de nivel 1. Sólo puede haber uno por documento --> 
+		<p> Esto es un párrafo </p> 
+		<p> Esto es un párrafo 
+			<br>
+				Que me gusta a mi un buen parrafo
+				 cosa mala oiga!!!
+			 <!-- Salto de línea -->  
+		</p>
+
+		</header>
+		<nav>
+			<ul>  <!-- Unordered list. Lista sin orden --> 
+				<li>Inicio</li>		<!-- List Item. Elemento de la lista --> 
+				<li> Blog</li> 
+				<li> Acerca de
+					<ul>
+						<li>Apartado. 1
+							<ul>
+								<li>a</li>
+								<li>b</li>
+								<li>c</li>
+							</ul>
+						</li>
+					
+						<li>Apartado. 2</li>
+						<li>Apartado. 3</li>
+						<li>Apartado. 4</li>
+					</ul>
+				</li>
+			</ul> 
+
+			<!-- Ordered List. Lista ordenada -->
+			<ol>
+				<li>Primero
+					<ol>
+						<li>Apartado</li>
+						<li>Apartado</li>
+						<li>Apartado</li>
+						<li>Apartado</li>
+					</ol>
+				</li>
+				<li>Segundo</li>
+				<li>Tercero</li>
+			</ol>
+			
+		</nav>
+
+		<article>
+
+			<h1>Glosario</h1>
+
+			<h2>Tema 1</h2>
+
+					<ol> 
+						<li>DOCTYPE html: indicamos que el tipo de documento es html 
+						<li>html lang="es": etiqueta de apertura del documento</li>
+						<li>head: abrimos la cabecera del documento</li>
+						<li>meta charset="utf-8": metadato (información añadida, se puede utilizar para hacer cracking). charset es el conjunto de caracteres con el que voy a trabajar en ese documento</li>
+						<li> title: título del documento. Aparece en la barra del título de la ventana o en la pestaña del navegador</li>
+						<li>div: se emplea para definir un bloque de contenido o sección de la página, para poder aplicarle diferentes estilos o incluso realizar operaciones sobre ese bloque</li>
+						<li>body: cuerpo del documento. la parte visible</li>
+						<li>header: encabezado</li>
+						<li>h1: encabezado de nivel 1 o de mayor relevancia, solo puede haber uno salvo una excepción</li>
+						<li>p: párrafo</li>
+						<li>br: quiebre de línea, causa que el texto continúe en una línea nueva</li>
+						<li>nav:Texto, contenido real, representa una sección de una página cuyo propósito es proporcionar enlaces de navegación</li>
+						<li>ul: Lista sin orden </li>
+						<li>li: List item. Elemento de la lista</li>
+						<li>ol: Lista ordenada</li>
+						<li>article: Especifica contenido independiente y autónomo y debe tener sentido por sí mismo</li>
+						<li>dl: Lista de definiciónes o descripciones. Agrupa (dt) y (dd)</li>
+						<li>dt: Especifica un término en una descripción o lista de definciones, debe utilizarse dentro de una lista de definiciones(dl)</li>
+						<li>dd: Aporta detalles acerca de la definición de un término precedente (dt) dentro de una lista de definciones (dl)</li>
+						<li>footer: Pie de pagina</li>
+
+					
+					</ol>
+
+			<h2>Tema 2</h2>
+
+		
+			<!-- Definition list. Lista de definición --> 
+			<dl>
+
+				<!-- B = Negrita -->
+
+					<dt><b>Termino o título</b></dt>
+					<dd>Definición</dd>
+
+					<dt><b>Etiqueta p</b></dt>
+					<dd>Se usa para crear párrafos de texto
+					</dd>
+			</dl>
+
+		</article>
+
+</body>
+</html>

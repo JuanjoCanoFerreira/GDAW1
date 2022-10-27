@@ -1,0 +1,19 @@
+<style>
+#div1{
+	background-color:  red;
+}
+#div2{
+	background-color: yellow;
+}
+.contenedor{
+	font-family: sans-serif;
+	font-size: 2em;
+}
+pre{
+	background-color: black;
+	color:  greenyellow;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+</style>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Elementos de bloque</title>
+</head>
+<body>
+	
+	<address> 
+ 	Esto es una información de contacto <br>
+		 <a href="mailto:Juanjosecanoferreira_8302@escuelaces.net">
+ 			Contáctame
+	 	</a>
+	 	- 
+		<a href="https://escuelaces.com" target="_parent">
+ 			Nuestro sitio web en nueva pestaña
+		</a>
+		<br>
+		<a href="https://escuelaces.com">
+			Nuestro sitio web
+		</a>
+	</address>
+
+	<article>
+		<h2>Esto es un artículo</h2>
+		<p>Esto es el contenido del artículo</p>
+	</article>
+
+	<article>
+		<h2>Esto es un artículo</h2>
+		<p>Esto es el contenido del artículo</p>
+	</article>
+
+	<aside>
+		<p> Aquí van contenidos relacionados con el contenido principal del documento</p>
+	</aside>
+
+	<blockquote cite= "https://psicologiaymente.com/reflexiones/frases-famosas">
+		<p>Haz el amor y no la guerra
+		<br> 
+		John Lennon
+		</p>
+	</blockquote>
+	<details>
+		<summary>Nota para el usuario</summary>
+		El contenido de este documento trata sobre las etiquetas de bloque en HTML 5.
+	</details>
+
+	<dialog id="dialogo"> 
+		Esto es una caja de diálogo
+		<br>
+		<button onclick="document.getElementById('dialogo').
+			close()">
+		Cierrame
+	</button>
+	</dialog>
+
+	<br>
+
+	<button onclick="document.getElementById('dialogo').
+		showmodal()">
+		Abre la caja de diálogo
+	</button>
+
+	<style>
+		#div1{
+			background-color:  red;
+		}
+		#div2{
+			background-color: yellow;
+		}
+		.contenedor{
+			font-family: sans-serif;
+			font-size: 2em;
+		}
+		pre{
+			background-color: black;
+			color:  greenyellow;
+			padding-left: 50px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	</style>
+		
+	<div id="div1">
+			<p>esto es un contenedo</p>
+	<div id="div2">
+			<p>Esto es otro contenedor dentro de mi primer contenedor</p>
+	</div>
+			<p>Esto es la continuación del div 1</p>
+	</div>
+
+	<dl>
+		<dt>Termino</dt>
+			<dd>Definicion</dd>
+		<dt>Termino</dt>
+			<dd>Definicion</dd>
+	</dl>
+
+	<figure>
+
+		<img src="./assets/imgs/platano.jpg" width="300px" alt="200px">
+
+		<figcaption>Imagen de 6 platanos</figcaption>
+	</figure>
+
+	<br>
+
+	<h1>Titulo 1</h1>
+	<h2>Titulo 2</h2>
+	<h3>Titulo 3</h3>
+	<h4>Titulo 4</h4>
+	<h5>Titulo 5</h5>
+	<h6>Titulo 6</h6>
+
+
+	<hr>
+	
+
+	<br>
+
+	<h6>Otra lista ordenada, con orden invertido</h6>
+
+		<!-- ol>li*5{Elemento $} -->
+
+	<ol>
+		<li>Elemento 1</li>
+		<li>Elemento 2</li>
+		<li>Elemento 3</li>
+		<li>Elemento 4</li>
+		<li>Elemento 5</li>
+	</ol>
+	
+		  "ul>li*5{Elemento $)" 
+
+	<ul>
+			<li>Elemento 1</li>
+			<li>Elemento 2</li>
+			<li>Elemento 3</li>
+			<li>Elemento 4</li>
+			<li>Elemento 5</li>
+	</ul>	
+
+	<br>
+
+	<main>
+		<p>Este es el contenedor para el contenido principal del documento</p>
+		<p>Debe ser unico en cada documento </p>
+		<p>No puede estar dentro de elemetnos 
+		<b>&lt;article&lt;</b>, 
+		<b>&lt;aside&lt;</b>,
+		<b>&lt;footer&lt;</b>,
+		<b>&lt;header&lt;</b>,
+
+ </p>
+
+	</main>
+
+	<br>
+
+	<h6>A continuacion vemos la etiqueta &lt;pre&lt;, que muestra texto tal y como está escrito:</h6>
+
+	<pre>
+
+class holaMundo
+{
+	// Tu programa comienza coon una llamada a main().
+	// Imprime "holaMundo" a la ventaa de la terminal.
+	public static void main(String args [])
+	{
+		System.out.println("Hola Mundo");
+	}
+}
+
+	</pre>
+"PRE: SE SUELE UTILIZAR PARA IMPLEMENTAR CÓDIGO FUENTE, EL CUAL TIENE QUE ESTAR ESCRITO TAL Y COMO SE REDACTA EN JAVA (EN ESTE CASO)"
+
+
+	<hr>
+
+<section>
+	
+ <h2> Esto es una seccion </h2>
+
+ <article>
+ 	<h3> Esto es un articulo </h3>
+ 	<p>Una seccion nos permite agrupar articulos
+ </article>
+
+
+</section>
+
+
+
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+</body>
+</html>
